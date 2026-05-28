@@ -92,3 +92,7 @@ main{
 #displayTasksBox{
     margin-top:20px;
 }
+
+ul{
+    list-style : none;
+}
