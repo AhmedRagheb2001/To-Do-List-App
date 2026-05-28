@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/to-do-list.png" alt="logo pic" id="logo">
+        <h1>To Do List App</h1>
+    </header>  
+    <main>
+        <div id="container">
+            <form>
+                <div id="taskNamecontainer">
+                    <label for="TaskNameBox">Task Name : </label>
+                    <input type="text" placeholder="Type Something..." id="TaskNameBox" required>
+                </div>
+                <br>
+                <div class="taskDescriptionContainer">
+                    <label for="TaskDescriptionBox">Task Description : </label>
+                    <textArea id="TaskDescriptionBox" rows="10" cols="50">
+
+                    </textArea>
+                </div>
+                <br>
+                <div id="AddTaskBox">
+                    <button id="addTask" onclick="addTask()">Add</button>
+                </div>
+            </form>
+        </div>
+        <div id="displayTasksBox">
+            <a href="Tasks.html">Display Tasks</a>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
